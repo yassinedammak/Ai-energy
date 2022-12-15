@@ -1,0 +1,48 @@
+.navBar {
+  background-color: white;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(239, 239, 239);
+  padding-left: 20px;
+}
+
+/* COMPANY LOGO */
+.companyLogo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.25rem;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.companyLogo:hover {
+  cursor: pointer;
+}
+.companyLogo:hover + .companyLogo h1 {
+  color: rgb(15, 210, 210);
+}
+
+.companyLogo h1 {
+  color: rgb(162, 162, 162);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  margin: 0;
+  transition: color 0.2s;
+}
+
+.companyLogo img {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  width: 50px;
+  height: 50px;
+}/*# sourceMappingURL=NavigationBar.css.map */
