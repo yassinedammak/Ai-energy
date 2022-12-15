@@ -1,11 +1,21 @@
 .navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: white;
   border-bottom-style: solid;
   border-bottom-color: rgb(239, 239, 239);
-  padding-left: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 /* COMPANY LOGO */
+.leftSection {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
 .companyLogo {
   display: flex;
   flex-direction: row;
@@ -24,7 +34,7 @@
 .companyLogo:hover {
   cursor: pointer;
 }
-.companyLogo:hover + .companyLogo h1 {
+.companyLogo:hover h1 {
   color: rgb(15, 210, 210);
 }
 
@@ -35,7 +45,7 @@
       -ms-user-select: none;
           user-select: none;
   margin: 0;
-  transition: color 0.2s;
+  transition: color 0.2s ease-in-out;
 }
 
 .companyLogo img {
@@ -45,4 +55,83 @@
           user-select: none;
   width: 50px;
   height: 50px;
+}
+
+/* NAV DROPDOWNS */
+.navDropdowns {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  color: rgb(162, 162, 162);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.navDropdowns h3 {
+  transition: color 0.2s ease-in-out;
+}
+
+.navDropdowns h3:hover {
+  cursor: pointer;
+  color: rgb(15, 210, 210);
+}
+
+/* LOGIN/SIGN UP SECTION */
+.accountSection {
+  display: flex;
+  gap: 1rem;
+}
+
+.accountSection button {
+  width: 125px;
+  height: 35px;
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: rgb(162, 162, 162);
+  background-color: white;
+  border: solid 1px rgb(209, 209, 209);
+  border-radius: 50px;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.accountSection button:hover {
+  color: white;
+  background-color: rgb(15, 210, 210);
+  border-color: rgb(15, 210, 210);
+}
+
+/* MENU SECTION & BUTTON */
+.menuSection {
+  display: none;
+}
+
+.menuBtn, .closeBtn {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+  color: rgb(162, 162, 162);
+}
+
+@media only screen and (max-width: 1180px) {
+  .menuSection {
+    display: block;
+  }
+  .accountSection {
+    display: none;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .navDropdowns {
+    display: none;
+  }
+}
+/*For Mobile*/
+@media only screen and (max-width: 450px) {
+  .navBar {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }/*# sourceMappingURL=NavigationBar.css.map */
