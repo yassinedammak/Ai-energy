@@ -9,7 +9,11 @@
   padding-right: 50px;
 }
 
-/* COMPANY LOGO */
+hr {
+  border: 0.5px solid rgba(169, 169, 169, 0.438);
+  border-radius: 50px;
+}
+
 .leftSection {
   display: flex;
   align-items: center;
@@ -38,8 +42,12 @@
   color: rgb(15, 210, 210);
 }
 
+a:focus > .companyLogo > h1 {
+  color: rgb(15, 210, 210);
+}
+
 .companyLogo h1 {
-  color: rgb(162, 162, 162);
+  color: rgb(127, 127, 127);
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -57,27 +65,97 @@
   height: 50px;
 }
 
-/* NAV DROPDOWNS */
-.navDropdowns {
+.navBtns {
   display: flex;
   align-items: center;
-  gap: 2rem;
-  color: rgb(162, 162, 162);
+  gap: 1rem;
+}
+
+.navBtns button {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(127, 127, 127);
+  background-color: transparent;
+  outline: none;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-}
-.navDropdowns h3 {
+  height: 80px;
+  border: none;
   transition: color 0.2s ease-in-out;
 }
 
-.navDropdowns h3:hover {
+.navBtns button:hover, .navBtns button:focus {
   cursor: pointer;
   color: rgb(15, 210, 210);
 }
 
-/* LOGIN/SIGN UP SECTION */
+.navDropdown {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  gap: 1rem;
+}
+
+.aboutDropdownMenu, .serviceDropdownMenu {
+  left: 0rem;
+  top: 100%;
+  position: absolute;
+  padding: 0px 15px 15px 15px;
+  border: solid rgb(239, 239, 239);
+  border-top-color: white;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  box-shadow: 0px 4px 4px 1px rgb(217, 217, 217);
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
+}
+.aboutDropdownMenu h3, .serviceDropdownMenu h3 {
+  color: rgb(127, 127, 127);
+}
+
+.aboutDropdownMenu {
+  width: 300px;
+}
+
+.serviceDropdownMenu {
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+}
+
+.navDropdown button:hover + [class*=DropdownMenu],
+.navDropdown button:focus + [class*=DropdownMenu],
+.navDropdown button + [class*=DropdownMenu]:hover {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.navDropdown button + [class*=DropdownMenu] {
+  visibility: hidden;
+}
+
+.navDropdown a {
+  outline: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.navDropdown a:hover, .navDropdown a:focus {
+  color: rgb(12, 157, 157);
+}
+
+.rightSection {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 3rem;
+}
+
 .accountSection {
   display: flex;
   gap: 1rem;
@@ -87,51 +165,60 @@
   width: 125px;
   height: 35px;
   cursor: pointer;
-  font-family: "Raleway", sans-serif;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  outline: none;
+  font-family: "Lato", sans-serif;
   font-weight: bold;
-  color: rgb(162, 162, 162);
+  color: rgb(127, 127, 127);
   background-color: white;
   border: solid 1px rgb(209, 209, 209);
   border-radius: 50px;
   transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 }
 
-.accountSection button:hover {
+.accountSection button:hover, .accountSection button:focus {
   color: white;
   background-color: rgb(15, 210, 210);
   border-color: rgb(15, 210, 210);
 }
 
-/* MENU SECTION & BUTTON */
 .menuSection {
   display: none;
 }
 
-.menuBtn, .closeBtn {
+.menuBtn, .hideBtn {
   width: 30px;
   height: 30px;
-  margin-top: 10px;
   cursor: pointer;
   color: rgb(162, 162, 162);
 }
 
-@media only screen and (max-width: 1180px) {
+@media only screen and (max-width: 1200px) {
   .menuSection {
     display: block;
+  }
+  .menuBtn, .hideBtn {
+    margin-top: 10px;
   }
   .accountSection {
     display: none;
   }
 }
-@media only screen and (max-width: 950px) {
-  .navDropdowns {
+@media only screen and (max-width: 985px) {
+  .navBtns {
     display: none;
   }
 }
 /*For Mobile*/
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 685px) {
   .navBar {
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 20px;
+  }
+  .accountSection {
+    display: none;
   }
 }/*# sourceMappingURL=NavigationBar.css.map */
