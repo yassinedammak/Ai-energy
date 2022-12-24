@@ -4,6 +4,7 @@ hr {
 }
 
 .navBar {
+  top: 0;
   position: fixed;
   display: flex;
   justify-content: space-between;
@@ -197,10 +198,10 @@ a:focus > .companyLogo > h1 {
   display: none;
   flex-direction: column;
   gap: 2rem;
-  top: 10.5%;
-  right: 0%;
+  bottom: 0;
+  right: 0;
   width: 350px;
-  height: 85%;
+  height: 85.1%;
   padding: 15px;
   border: 1px solid transparent;
   border-left-color: rgb(239, 239, 239);

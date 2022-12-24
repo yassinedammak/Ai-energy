@@ -142,26 +142,26 @@ const NavigationBar = () => {
             }
           </div>
         </div>
-      </div>
-      <div className="sideMenu" style={{display: (!menuOpen || width > 1200) ? 'none' : 'flex'}}>
-        <div className="sideMenuSiteSections">
-          <button>About Us</button>
-          <button>Services</button>
-          <button>Community</button>
-          <button>Blog</button>
-          <button>Contact Us</button>
-        </div>
-        <div className="sideMenuContent">
-          <div className="sideMenuAccountHeader">
-            <h1>Login or Sign Up</h1>
+        <div className="sideMenu" style={{display: (!menuOpen || width > 1200) ? 'none' : 'flex'}}>
+          <div className="sideMenuSiteSections">
+            <button>About Us</button>
+            <button>Services</button>
+            <button>Community</button>
+            <button>Blog</button>
+            <button>Contact Us</button>
           </div>
-          <div className="loginSignUpSection">
-            <div className="sideMenuAccountBtns">
-              <button>Login</button>
-              <button>Sign Up</button>
+          <div className="sideMenuContent">
+            <div className="sideMenuAccountHeader">
+              <h1>Login or Sign Up</h1>
             </div>
-            <div className='disclaimer'>
-              &copy; Company. All rights reserved. All trademarks are property of their respective owners in the US and other countries.
+            <div className="loginSignUpSection">
+              <div className="sideMenuAccountBtns">
+                <button>Login</button>
+                <button>Sign Up</button>
+              </div>
+              <div className='disclaimer'>
+                &copy; Company. All rights reserved. All trademarks are property of their respective owners in the US and other countries.
+              </div>
             </div>
           </div>
         </div>
