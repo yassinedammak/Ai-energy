@@ -1,3 +1,4 @@
+import { useState, useEffect, useRef } from 'react'
 import './ChooseUsSection.scss'
 
 import { AiOutlineBarChart as Chart } from 'react-icons/ai'
@@ -6,12 +7,26 @@ import { MdSupportAgent as Support} from 'react-icons/md'
 import { FaPeopleCarry as Community } from 'react-icons/fa'
 
 const ChooseUsSection = () => {
+  const cardsRef = useRef()
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting)
+          entry.target.classList.add("fadeIn")
+      })
+    }, {
+      threshold: 0.5
+    })
+    observer.observe(cardsRef.current)
+  }, [])
+
   return (
-    <div className="chooseUsSection">
+    <section className="chooseUsSection">
       <div className="sectionTitle">
         Why Choose Us
       </div>
-      <div className="reasonCards">
+      <div className="reasonCards" ref={cardsRef}>
         <div className="card">
           <div className="cardSymbol">
             <Chart size={'100px'} color={'rgb(127, 127, 127)'}/>
@@ -50,14 +65,14 @@ const ChooseUsSection = () => {
             <Support size={'100px'} color={'rgb(127, 127, 127)'}/>
           </div>
           <div className="cardTitle">
-            24/7 Customer Service
+            24/7 Customer Support
           </div>
           <div className="cardDesc">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 export default ChooseUsSection

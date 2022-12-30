@@ -21,7 +21,7 @@ const NavigationBar = () => {
 
   return (
     <>
-      <div className="navBar">
+      <nav className="navBar">
         <div className="leftSection">
           <a href='https://github.com/KennethOnuorah/Website' target={'_blank'} style={{textDecoration: "none", outline: "none"}}>
             <div className='companyLogo'>
@@ -165,7 +165,7 @@ const NavigationBar = () => {
             </div>
           </div>
         </div>
-      </div>
+      </nav>
     </>
   )
 }

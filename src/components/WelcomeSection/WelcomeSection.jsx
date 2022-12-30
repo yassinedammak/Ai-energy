@@ -1,8 +1,23 @@
+import { useEffect, useRef } from 'react'
 import './WelcomeSection.scss'
 
 const WelcomeSection = () => {
-  return (
-    <div className="welcomeSection">
+  const welcomeImageRef = useRef()
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting)
+          entry.target.classList.add("fadeIn")
+      })
+    }, {
+      threshold: 0.5
+    })
+    observer.observe(welcomeImageRef.current)
+  }, [])
+
+  return (    
+    <section className="welcomeSection">
       <div className="welcomeText">
         <div className="motto">
           Changing the Future, for the Better.
@@ -15,10 +30,14 @@ const WelcomeSection = () => {
           <button>Watch Intro Video</button>
         </div>
       </div>
-      <div className="welcomeImage">
-        <img src='../src/images/welcome_image.png' width={576} height={360}/>
+      <div className="imageSection">
+        <img 
+          src='../src/images/welcome_image.png' 
+          className='welcomeImage'
+          ref={welcomeImageRef} 
+          width={576*1.1} height={360*1.1}/>
       </div>
-    </div>
+    </section>
   )
 }
 

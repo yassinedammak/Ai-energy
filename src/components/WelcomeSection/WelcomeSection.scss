@@ -47,13 +47,22 @@
     box-shadow: 0px 0px 12px 4px rgb(154, 239, 239);
   }
 }
-.welcomeImage img{
+.welcomeImage{
   max-width: 100%;
   height: auto;
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: opacity 0.6s ease,
+              transform 0.6s ease;
+}
+
+.fadeIn {
+  opacity: 1;
+  transform: translateY(0px);
 }
 
 //MEDIA QUERIES
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
   .welcomeSection{
     margin-top: 100px;
     flex-direction: column;
