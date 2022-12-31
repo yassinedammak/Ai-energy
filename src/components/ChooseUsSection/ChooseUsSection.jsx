@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import './ChooseUsSection.scss'
 
 import { AiOutlineBarChart as Chart } from 'react-icons/ai'
