@@ -6,6 +6,7 @@ import AboutSection from './components/AboutSection/AboutSection'
 import ServicesSection from './components/ServicesSection/ServicesSection'
 import ChooseUsSection from './components/ChooseUsSection/ChooseUsSection'
 import ReviewsSection from './components/ReviewsSection/ReviewsSection'
+import DownloadSection from './components/DownloadSection/DownloadSection'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <ServicesSection/>
       <ChooseUsSection/>
       <ReviewsSection/>
+      <DownloadSection/>
     </div>
   )
 }
