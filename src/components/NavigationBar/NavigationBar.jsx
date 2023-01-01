@@ -126,7 +126,7 @@ const NavigationBar = () => {
               </div>
               <button>Community</button>
               <button>Blog</button>
-              <button>Contact Us</button>
+              <button>News</button>
             </div>
         </div>
         <div className='rightSection'>

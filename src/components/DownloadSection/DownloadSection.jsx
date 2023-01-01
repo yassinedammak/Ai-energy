@@ -27,7 +27,7 @@ const DownloadSection = () => {
       </div>
       <div className="downloadText">
         <div className="downloadTitle">
-          Our Services are Available Anytime, Anywhere.
+          Our Services Are Available Anytime, Anywhere.
         </div>
         <div className="downloadSubtitle">
           Download the app today!
