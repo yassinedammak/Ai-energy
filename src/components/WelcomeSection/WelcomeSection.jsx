@@ -32,7 +32,7 @@ const WelcomeSection = () => {
       </div>
       <div className="imageSection">
         <img 
-          src='../src/images/welcome_image.png' 
+          src='../src/images/welcomeImage.png' 
           className='welcomeImage'
           ref={welcomeImageRef} 
           width={576*1.1} height={360*1.1}/>

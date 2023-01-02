@@ -25,7 +25,7 @@ const NavigationBar = () => {
         <div className="leftSection">
           <a href='https://github.com/KennethOnuorah/Website' target={'_blank'} style={{textDecoration: "none", outline: "none"}}>
             <div className='companyLogo'>
-              <img src='../src/images/globe_icon.png'/>
+              <img src='../src/images/globeIcon.png'/>
               <h1>Company</h1>
             </div>
           </a>

@@ -6,7 +6,6 @@ import ChooseUsSection from './components/ChooseUsSection/ChooseUsSection'
 import ReviewsSection from './components/ReviewsSection/ReviewsSection'
 import DownloadSection from './components/DownloadSection/DownloadSection'
 import Footer from "./components/Footer/Footer"
-
 import './index.css'
 
 function App() {
