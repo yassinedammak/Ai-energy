@@ -9,13 +9,6 @@ git clone https://github.com/KennethOnuorah/Website.git
 cd Website
 npm i
 ```
-
-Run the server
-
-```bash
-npm run server
-```
-
 Run dev
 
 ```bash
