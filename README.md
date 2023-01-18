@@ -1,6 +1,6 @@
 A modern-styled homepage for a fictional company built with React.js 
 
-## **How to Use** 🛠️
+## **How to Setup** 🛠️
 
 Clone repository and install
 
