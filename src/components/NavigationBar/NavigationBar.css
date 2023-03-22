@@ -9,9 +9,9 @@ hr {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
+  background-color: rgb(0, 0, 0);
   border-bottom-style: solid;
-  border-bottom-color: rgb(239, 239, 239);
+  border-bottom-color: rgb(0, 0, 0);
   padding-left: 50px;
   padding-right: 50px;
   box-sizing: border-box;
@@ -44,15 +44,15 @@ hr {
   cursor: pointer;
 }
 .companyLogo:hover h1 {
-  color: rgb(15, 210, 210);
+  color: rgb(0, 0, 0);
 }
 
 a:focus > .companyLogo > h1 {
-  color: rgb(15, 210, 210);
+  color: rgb(0, 0, 0);
 }
 
 .companyLogo h1 {
-  color: rgb(127, 127, 127);
+  color: rgb(255, 255, 255);
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
