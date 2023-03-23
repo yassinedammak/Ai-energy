@@ -23,7 +23,7 @@ const WelcomeSection = () => {
           Changing the Future, for the Better.
         </div>
         <div className="mottoSubtitle">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Wasting energy has become an obsession that threatens most of the profit
         </div>
         <div className="welcomeButtons">
           <button>Learn More</button>
@@ -32,7 +32,7 @@ const WelcomeSection = () => {
       </div>
       <div className="imageSection">
         <img 
-          src='../src/images/welcomeImage.png' 
+          src='src\images\AI-1-1024x684.jpg' 
           className='welcomeImage'
           ref={welcomeImageRef} 
           width={576*1.1} height={360*1.1}/>

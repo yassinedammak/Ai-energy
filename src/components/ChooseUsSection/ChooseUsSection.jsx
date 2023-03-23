@@ -35,7 +35,6 @@ const ChooseUsSection = () => {
             Management & Marketing
           </div>
           <div className="cardDesc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
           </div>
         </div>
         <div className="card">
@@ -46,7 +45,6 @@ const ChooseUsSection = () => {
             High Quality Service
           </div>
           <div className="cardDesc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
           </div>
         </div>
         <div className="card">
@@ -57,7 +55,7 @@ const ChooseUsSection = () => {
             A Strong, Growing Community
           </div>
           <div className="cardDesc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
+            
           </div>
         </div>
         <div className="card">
@@ -68,7 +66,6 @@ const ChooseUsSection = () => {
             24/7 Customer Support
           </div>
           <div className="cardDesc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </div>
         </div>
       </div>

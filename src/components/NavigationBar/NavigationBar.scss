@@ -2,7 +2,7 @@
 $sideMenuGap: 2rem;
 
 hr{
-  border: 0.5px solid rgba(169, 169, 169, 0.438);
+  border: 0.5px solid rgba(0, 0, 0, 0.438);
   border-radius: 50px;
 }
 
@@ -13,9 +13,9 @@ hr{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
+  background-color: #253f4b;
   border-bottom-style: solid;
-  border-bottom-color: rgb(239, 239, 239);
+  border-bottom-color: #253f4b;
   padding-left: 50px;
   padding-right: 50px;
   box-sizing: border-box;
@@ -40,26 +40,27 @@ hr{
   height: max-content;
   margin-top: 15px;
   margin-bottom: 15px;
+ 
 }
 .companyLogo:hover{
   cursor: pointer;
   h1{
-    color: rgb(15, 210, 210);
+    color: rgb(229, 237, 166);
   }
 }
 a:focus > .companyLogo > h1{
-  color: rgb(15, 210, 210);
+  color: #04709e;
 }
 .companyLogo h1{
-  color: rgb(85, 222, 227);
+  color: #04709e;
   user-select: none;
   margin: 0;
   transition: color 0.2s ease-in-out;
 }
 .companyLogo img{
   user-select: none;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
 }
 
 //NAV DROPDOWNS
@@ -72,7 +73,7 @@ a:focus > .companyLogo > h1{
   font-family: 'Lato', sans-serif;
   font-size: 20px;
   // font-weight: bold;
-  color: rgb(127, 127, 127);
+  color:#e0c95e;
   background-color: transparent;
   outline: none;
   user-select: none;
@@ -82,7 +83,7 @@ a:focus > .companyLogo > h1{
 }
 .navBtns button:hover, .navBtns button:focus{
   cursor: pointer;
-  color: rgb(15, 210, 210);
+  color: #94edf8;
 }
 .navDropdown{
   display: flex;
@@ -95,17 +96,17 @@ a:focus > .companyLogo > h1{
   top: 100%;
   position: absolute;
   padding: 0px 15px 15px 15px;
-  border: solid rgb(239, 239, 239);
-  background-color: white;
-  border-top-color: white;
-  box-shadow: 0px 4px 4px 1px rgb(217, 217, 217);
+  border: solid #c7cecf;
+  background-color: rgb(255, 255, 255);
+  border-top-color: rgb(36, 161, 218);
+  box-shadow: #bce0e4;
   opacity: 0;
   transform: translateY(-10px);
   transition: opacity 0.1s ease-in-out,
               transform 0.1s ease-in-out;
   z-index: 2;
   h3{
-    color:rgb(127, 127, 127);
+    color:rgb(78, 85, 91);
   }
 }
 .aboutDropdownMenu{
@@ -130,7 +131,7 @@ a:focus > .companyLogo > h1{
   transition: color 0.2s ease-in-out;
 }
 .navDropdown a:hover, .navDropdown a:focus{
-  color: rgb(12, 157, 157);
+  color: rgb(238, 237, 238);
 }
 
 //RIGHT SECTION OF NAVBAR
@@ -154,18 +155,19 @@ a:focus > .companyLogo > h1{
   outline: none;
   font-family: 'Lato', sans-serif;
   // font-weight: bold;
-  color: rgb(127, 127, 127);
-  background-color: white;
-  border: solid 1px rgb(209, 209, 209);
+  color: #253f4b;
+  background-color: #aac8d5;
+  border: solid 1px #253f4b;
   border-radius: 50px;
   transition: color 0.2s ease-in-out,
               background-color 0.2s ease-in-out,
               border-color 0.2s ease-in-out;
 }
 .accountSection button:hover, .accountSection button:focus{
-  color: white;
-  background-color: rgb(15, 210, 210);
-  border-color: rgb(15, 210, 210);
+  color: #3da8c3;
+  background-color:#e0c95e;
+  border-color: #e3e3e3;
+  box-shadow: 0px 0px 12px 4px rgb(59, 87, 87);
 }
 
 //MENU SECTION & BUTTON
@@ -176,11 +178,12 @@ a:focus > .companyLogo > h1{
   width: 30px;
   height: 30px;
   cursor: pointer;
-  color: rgb(162, 162, 162);
+  color: #e0c95e;
 }
 
 //SIDE MENU
 .sideMenu{
+  color: #fafafa;
   position: fixed;
   display: none;
   flex-direction: column;
@@ -191,11 +194,11 @@ a:focus > .companyLogo > h1{
   height: 85.1%;
   padding: 15px;
   border: 1px solid transparent;
-  border-left-color: rgb(239, 239, 239);
-  background-color: white;
-  box-shadow: -10px 2px 4px 0px rgba(217, 217, 217, 0.39);
+  border-left-color: #2096b4;
+  background-color: #253f4b;
+  box-shadow: -10px 2px 4px 0px rgba(230, 249, 23, 0.39);
   h1{
-    color: rgb(162, 162, 162);
+    color: rgb(245, 245, 245);
     user-select: none;
     text-align: center;
   }
@@ -205,14 +208,16 @@ a:focus > .companyLogo > h1{
   flex-direction: column;
   align-content: space-between;
   // gap: 20rem;
+  background-color: #253f4b;
 }
 .sideMenuSiteSections{
   display: none;
   flex-direction: column;
   gap: 3rem;
   button{
+    color: #e0c95e;
     cursor: pointer;
-    background-color: white;
+    background-color: #253f4b;
     border: 1px solid transparent;
     font-family: 'Lato', sans-serif;
     user-select: none;
@@ -220,7 +225,7 @@ a:focus > .companyLogo > h1{
     transition: color 0.2s ease-in-out;
   }
   button:hover{
-    color: rgb(15, 210, 210);
+    color: rgb(255, 255, 255);
   }
 }
 .loginSignUpSection{
@@ -237,13 +242,13 @@ a:focus > .companyLogo > h1{
   button{
     height: 50px;
     font-family: 'Lato', sans-serif;
-    font-size: medium;
+    font-size: 18px;
     // font-weight: bold;
-    color: rgb(127, 127, 127);
-    background-color: white;
+    color: rgb(248, 248, 248);
+    background-color: #e0c95e;
     outline: none;
     user-select: none;
-    border: solid 1px rgb(209, 209, 209);
+    border: solid 1px rgb(233, 241, 171);
     border-radius: 50px;
     transition: color 0.2s ease-in-out,
               background-color 0.2s ease-in-out,
@@ -251,9 +256,9 @@ a:focus > .companyLogo > h1{
   }
   button:hover{
     cursor: pointer;
-    color: white;
-    background-color: rgb(15, 210, 210);
-    border-color: rgb(15, 210, 210);
+    color: #e0c95e;
+    background-color: #253f4b;
+    border-color:#e0c95e;
   }
 }
 .disclaimer{

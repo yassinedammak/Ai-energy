@@ -23,7 +23,7 @@ const ServicesSection = () => {
           Services
         </div>
         <div className="mottoSubtitle">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br/><br/>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Our services focus on helping industrial factories reduce their energy consumption and promote sustainable practices through the use of our machine learning model.<br/> We offer customized solutions to meet the specific needs of each client, whether it be predicting energy consumption, identifying areas for improvement, or developing energy management strategies. Our model is constantly updated and refined to provide accurate and reliable predictions, allowing factories to optimize their energy usage and reduce waste. In addition, we provide ongoing support and training to ensure our clients can effectively implement our technology and achieve their energy goals.<br/> We are committed to helping our clients achieve greater efficiency, reduce costs, and minimize their environmental impact.
         </div>
         <div className="serviceButtons">
           <button>Learn More</button>
@@ -31,7 +31,7 @@ const ServicesSection = () => {
       </div>
       <div className="imageSection">
         <img 
-          src='../src/images/servicesImage.png' 
+          src='src\images\aiSolar.jpg' 
           className='serviceImage'
           ref={serviceImageRef} 
           width={515} height={515}/>

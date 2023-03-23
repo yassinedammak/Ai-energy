@@ -20,7 +20,7 @@ const DownloadSection = () => {
     <section className="downloadSection">
       <div className="imageSection">
         <img 
-          src='../src/images/appsImage.png' 
+          src='src\images\ai5.png' 
           className='downloadImage'
           ref={downloadImageRef} 
           width={576} height={360}/>

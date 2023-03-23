@@ -20,7 +20,7 @@ const AboutSection = () => {
     <section className='aboutSection'>
       <div className="aboutLeft">
         <img 
-          src='../src/images/aboutUsImage.png' 
+          src='src\images\dammak.yessin_image_releated_with_electrical_energy_theme_and_a_fa498f81-58f9-427f-9286-e895e5f06e36.png' 
           className='aboutImage'
           ref={aboutImageRef} 
           width={750} height={450}/>
@@ -30,7 +30,11 @@ const AboutSection = () => {
           About Us
         </div>
         <div className="body">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br/><br/>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        We are a group of passionate students who have developed a state-of-the-art machine learning model that predicts energy consumption for factories. Our mission is to reduce wasteful energy consumption and promote sustainable practices in the industrial sector through the use of our innovative technology.<br/><br/>
+
+Our team is made up of individuals from diverse backgrounds, all dedicated to creating a more sustainable future. We have expertise in machine learning, data analysis, and energy management. We are committed to providing our clients with the best possible solutions to their energy needs.<br/><br/>
+
+Thank you for considering our model to help you reduce your energy consumption and minimize your environmental impact. We look forward to working with you to achieve a greener future.
         </div>
         <div className="button">
           <button>Read More</button>

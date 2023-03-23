@@ -6,74 +6,70 @@ const ReviewsSection = () => {
     <section className="reviewsSection">
       <div className="reviewTextSection">
         <div className="reviewSectionTitle">
-          Reviews
+         Founders
         </div>
         <div className="reviewSectionSubtitle">
-          Have a look at what some of our customers are saying about us!
+          Have a look at the founders of the project <br/>
+          ENSI (national school of comupter science) students .
         </div>
       </div>
       <div className="allReviews">
         <div className="review">
           <div className="profilePic">
-            <img src="../src/images/profPic1.png" />
+            <img src="src\images\336631725_1418684698963542_2657579525992746435_n.jpg" />
           </div>
           <div className="reviewText">
             <div className="reviewerName">
-              David Wilson
+              Wassim Chouchen
             </div>
             <div className="reviewerLocation">
-              San Francisco, CA
+             Tunisia , ElJem
             </div>
             <div className="reviewerReview">
-              <em>"I have been a customer of this company for years and have always been extremely satisfied with their products and services. The staff is friendly and helpful, and they always go above and beyond to make sure I have everything I need. Highly recommend!"</em>
+              <em></em>
             </div>
           </div>
         </div>
         <div className="review">
           <div className="profilePic">
-            <img src="../src/images/profPic2.png" />
+            <img src="src\images\334900381_607916724174396_49577400954995830_n.jpg" />
           </div>
           <div className="reviewText">
             <div className="reviewerName">
-              Sarah Lee
+              Yassine Dammak
             </div>
             <div className="reviewerLocation">
-              Seattle, WA
+              Tunisia ,Sfax
             </div>
             <div className="reviewerReview">
-              <em>"I have been a customer of this company for years and have always been extremely satisfied with their products and services. The staff is friendly and helpful, and they always go above and beyond to make sure I have everything I need. Highly recommend!"</em>
             </div>
           </div>
         </div>
         <div className="review">
           <div className="profilePic">
-            <img src="../src/images/profPic3.png" />
+            <img src="src\images\334910887_1085411069528004_2366165994054918406_n.jpg" />
           </div>
           <div className="reviewText">
             <div className="reviewerName">
-              Frank Jones
+              Oumayma mallouli
             </div>
             <div className="reviewerLocation">
-              Houston, TX
-            </div>
+            Tunisia ,Sfax            </div>
             <div className="reviewerReview">
-              <em>"I have had nothing but positive experiences with this company. They have always been prompt and efficient, and the products I have purchased from them have exceeded my expectations. I will definitely be a repeat customer!"</em>
             </div>
           </div>
         </div>
         <div className="review">
           <div className="profilePic">
-            <img src="../src/images/profPic4.png" />
+            <img src="src\images\337323045_917822695932631_3612323856518680898_n.jpg" />
           </div>
           <div className="reviewText">
             <div className="reviewerName">
-              Samantha Smith
+              Ghassen farjallah
             </div>
             <div className="reviewerLocation">
-              Austin, TX
-            </div>
+            Tunisia ,Sfax            </div>
             <div className="reviewerReview">
-              <em>"I was blown away by the level of service I received from this company. They were extremely knowledgeable and helped me find exactly what I was looking for. I will definitely be using them again in the future."</em>
             </div>
           </div>
         </div>

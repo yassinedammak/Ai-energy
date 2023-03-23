@@ -68,13 +68,13 @@ const Footer = () => {
           </div>
           <div className="columnText">
             <div className="columnTextItem">
-              Phone: +1 (123) 456-7890
+              Phone: (+216) 51 94 24 26
             </div>
             <div className="columnTextItem">
-              Email: <u><a href='#'>support.company@gmail.com</a></u>
+              Email: <u><a href='#'>support.ai-energy@gmail.com</a></u>
             </div>
             <div className="columnTextItem">
-              Address: 321 Main Street, <br/>Austin, TX 12345
+              Address: rectorat Mannouba
             </div>
           </div>
         </div>

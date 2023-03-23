@@ -25,8 +25,8 @@ const NavigationBar = () => {
         <div className="leftSection">
           <a href='https://github.com/KennethOnuorah/Website' target={'_blank'} style={{textDecoration: "none", outline: "none"}}>
             <div className='companyLogo'>
-              <img src='../src/images/globeIcon.png'/>
-              <h1>Company</h1>
+              <img src='src\images\5544187[1].png'/>
+              <h1>AI-Energy</h1>
             </div>
           </a>
             <div className="navBtns">
@@ -50,7 +50,7 @@ const NavigationBar = () => {
                     <hr/>
                     <div className="dropdownDescription">
                       <p>
-                        Our mission at Company is to make a positive impact in the world through our work.
+                        Our mission is to make a positive impact in the world through our work.
                         <span>
                           <a href='#' style={{textDecoration: "none"}}> Learn more.</a>
                         </span>
@@ -79,7 +79,9 @@ const NavigationBar = () => {
                     <hr/>
                     <div className="dropdownDescription">
                       <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+ECRIRE ICI <br/>
+
                         <span>
                           <a href='#' style={{textDecoration: "none"}}> Learn more.</a>
                         </span>
@@ -91,8 +93,7 @@ const NavigationBar = () => {
                     <hr/>
                     <div className="dropdownDescription">
                       <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        <span>
+                      ECRIRE ICI <br/>                        <span>
                           <a href='#' style={{textDecoration: "none"}}> Learn more.</a>
                         </span>
                       </p>
@@ -103,8 +104,7 @@ const NavigationBar = () => {
                     <hr/>
                     <div className="dropdownDescription">
                       <p>
-                      Lorem ipsum dolor sit amet.
-                        <span>
+                      ECRIRE ICI <br/>                        <span>
                           <a href='#' style={{textDecoration: "none"}}> Learn more.</a>
                         </span>
                       </p>
@@ -115,8 +115,7 @@ const NavigationBar = () => {
                     <hr/>
                     <div className="dropdownDescription">
                       <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        <span>
+                      ECRIRE ICI <br/>                        <span>
                           <a href='#' style={{textDecoration: "none"}}> Learn more.</a>
                         </span>
                       </p>
